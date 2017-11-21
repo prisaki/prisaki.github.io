@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
+  <link rel="stylesheet" href="CSS/style.css">
+
+
 # About Page
 
 This site was created on Jekyll[Jekyll][1] and the source code for this site can be found [here][2].
