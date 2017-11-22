@@ -155,7 +155,7 @@ a2 {
     border-radius: 12px;
 }
 
-boo{
+.boo{
   transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   
@@ -175,7 +175,7 @@ boo{
   font:inherit;
 }
  
-  boo:hover {
+  .boo:hover {
     
     color: #624D75 !important;
     background: #67E3AA;
