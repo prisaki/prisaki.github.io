@@ -165,6 +165,8 @@ a2 {
   position:absolute;
   object-position:center;
 
+  border:none;
+  outline:none;
   border-radius:19px;
   padding: 7px 28px;
   margin-left:30px;
@@ -182,6 +184,8 @@ a2 {
     position:absolute;
     object-position:center;
 
+    border:none;
+    outline:none;
     border-radius:19px;
     padding: 7px 28px;
     margin-left:30px;
