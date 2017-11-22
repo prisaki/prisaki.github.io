@@ -77,21 +77,31 @@ h1, h2, h3, h4, h5, h6 {
 
  */
 a {
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  
   color: #2a7ae2;
   text-decoration: none;
   font-size:inherit;
-  text-align: center;
+  /* text-align: center; */
   font:inherit;
+  padding: 7x 7x;
+  cursor: pointer;
+    
+  border-radius: 12px;
+    
+  transition: all 0.45s ease;
+  -webkit-transition: all 0.45s ease;
 }
   a:visited {
     color: #1756a9; }
  
   a:hover {
-    color: #111;
-    text-decoration: underline;
+    transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out; /* safari */
+      
+    color: #FBFBFB;
+    background-color:#67E3AA; /* 00F27E */
+    padding:7px 7px;
+      
+    border-radius: 12px;
 }
 
 a1 {
