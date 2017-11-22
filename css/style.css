@@ -91,7 +91,7 @@ a {
   -webkit-transition: all 0.45s ease;
 }
   a:visited {
-    color: #1756a9; }
+    text-decoration: none; }
  
   a:hover {
     transition: all 0.45s ease-in-out;
