@@ -104,6 +104,26 @@ a {
     border-radius: 12px;
 }
 
+a.head {
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  
+  color: #2a7ae2;
+  text-decoration: none;
+  font-size:inherit;
+  text-align: center;
+  font:inherit;
+}
+  a.head:visited {
+    color: #1756a9; }
+ 
+  a.head:hover {
+    color: #111;
+    text-decoration: underline;
+}
+
+
+
 a1 {
   color: #2a7ae2;
   text-decoration: none;
