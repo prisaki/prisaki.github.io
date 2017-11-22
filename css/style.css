@@ -165,7 +165,6 @@ a2 {
   position:absolute;
   object-position:center;
 
-  /* border-color:20013B 2px; */
   border-radius:19px;
   padding: 7px 28px;
   margin-left:30px;
@@ -177,8 +176,19 @@ a2 {
  
   .boo:hover {
     
-    color: #624D75 !important;
+    color: #624D75;
     background: #67E3AA;
+    
+    position:absolute;
+    object-position:center;
+
+    border-radius:19px;
+    padding: 7px 28px;
+    margin-left:30px;
+    
+    font-size:inherit;
+    text-align: center;
+    font:inherit;
 }
 
    /* .social-media-list a1:hover {
