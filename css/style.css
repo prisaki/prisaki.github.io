@@ -104,23 +104,18 @@ a {
     border-radius: 12px;
 }
 
-a.head {
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  
-  color: #2a7ae2;
-  text-decoration: none;
-  font-size:inherit;
-  text-align: center;
-  font:inherit;
-}
-  a.head:visited {
-    color: #1756a9; }
- 
-  a.head:hover {
-    color: #111;
-    text-decoration: underline;
-}
+a.site-title{
+  transition: all 0.45s ease;
+  -webkit-transition: all 0.45s ease;
+    
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
 
 
 
