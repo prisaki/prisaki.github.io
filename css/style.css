@@ -104,7 +104,7 @@ a {
     border-radius: 12px;
 }
 
-#nav a.link{
+.nav:link{
   transition: all 0.25s ease;
   -webkit-transition: all 0.25s ease;
   
@@ -116,10 +116,10 @@ a {
   margin-bottom: 0;
   float: left; 
 }
-#nav .a:hover {
+.nav:hover {
   text-decoration: underline; 
 }
-#nav .a:visited {
+.nav:visited {
   text-decoration:none;
 }
   
