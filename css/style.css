@@ -76,7 +76,26 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 14px;
 
  */
+
 a {
+  text-decoration: none;
+  font-size:inherit;
+  /* text-align: center; */
+  font:inherit;
+  cursor: pointer;
+        
+  transition: all 0.45s ease;
+  -webkit-transition: all 0.45s ease;
+    
+}
+  a:visited {
+    text-decoration:none; }
+ 
+  a:hover {   
+    text-decoration:none;
+}
+  
+.link{
   color: #B9B9B9;
   text-decoration: none;
   font-size:inherit;
@@ -90,10 +109,10 @@ a {
   transition: all 0.45s ease;
   -webkit-transition: all 0.45s ease;
 }
-  a:visited {
+  .link:visited {
     text-decoration: none; }
  
-  a:hover {
+  .link:hover {
     transition: all 0.45s ease-in-out;
     -webkit-transition: all 0.45s ease-in-out; /* safari */
       
@@ -126,8 +145,17 @@ a {
   text-decoration:none;
 }
   
+/* color list
 
+2a7ae2
+1756a9
+FBFBFB
+67E3AA
 
+a2
+B9B9B9
+1756a9
+67E3AA */
 
 a1 {
   color: #2a7ae2;
