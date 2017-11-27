@@ -118,6 +118,9 @@ a {
 }
 .nav:hover {
   text-decoration: underline; 
+  border-radius: none;
+  padding:none;
+  background-color:none;
 }
 .nav:visited {
   text-decoration:none;
