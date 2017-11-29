@@ -103,7 +103,6 @@ a {
   font:inherit;
   padding: 7x 7x;
   cursor: pointer;
-    
   border-radius: 12px;
     
   transition: all 0.45s ease;
@@ -156,67 +155,6 @@ a2
 B9B9B9
 1756a9
 67E3AA */
-
-a1 {
-  color: #2a7ae2;
-  text-decoration: none;
-  font-size:inherit;
-  /* text-align: center; */
-  font:inherit;
-  padding: 7x 7x;
-  cursor: pointer;
-    
-  border-radius: 12px;
-    
-  transition: all 0.45s ease;
-  -webkit-transition: all 0.45s ease;
-    
-}
-  a1:visited {
-    color: #1756a9; }
- 
-  a1:hover {
-    
-    transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out; /* safari */
-      
-    color: #FBFBFB;
-    background-color:#67E3AA; /* 00F27E */
-    padding:7px 7px;
-      
-    border-radius: 12px;
-}
-
-a2 {
-  color: #B9B9B9;
-  text-decoration: none;
-  font-size:inherit;
-  /* text-align: center; */
-  font:inherit;
-  padding: 7x 7x;
-  cursor: pointer;
-    
-  border-radius: 12px;
-    
-  transition: all 0.45s ease;
-  -webkit-transition: all 0.45s ease;
-    
-}
-  a2:visited {
-    color: #1756a9; 
-}
- 
-  a2:hover {
-    
-    transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out; /* safari */
-      
-    color: #FBFBFB;
-    background-color:#67E3AA; /* 00F27E */
-    padding:7px 7px;
-      
-    border-radius: 12px;
-}
 
 .boo{
   transition: all 0.25s ease;
@@ -612,21 +550,6 @@ test to move for 2 column
     
     border-top: 1px solid #e8e8e8;
 }
-
-.post-alternate {    
-  padding:15px;
-  background: #e8e8e8; 
-  border-radius:10px;
-    
-  /* max-width: -webkit-calc(800px - (10px * 2));
-  max-width: calc(800px - (30px * 2)); */
-  }
-
-
-    
-    /* make wider */
-    
-    }
 
   .post-content h2 {
     font-size: 32px; }
