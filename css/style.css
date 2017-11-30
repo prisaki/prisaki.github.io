@@ -196,15 +196,6 @@ B9B9B9
     font:inherit;
 }
 
-   /* .social-media-list a1:hover {
-      
-      -webkit-transition-duration: background 0.45s ease; /*safari
-      transition-duration: background 0.45s ease;
-        
-      text-decoration: none;
-      border-radius: 12px;
-    } */
-
 /**
  * Blockquotes
  */
@@ -287,23 +278,24 @@ pre {
   min-height: 55.95px;
   position: relative; }
 
-
 .site-title {
   transition: all 0.45s ease;
   -webkit-transition: all 0.45s ease;
     
+  color:#424242;
   font-size: 26px;
   font-weight: 300;
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
 
-/* .site-title, .site-title:hover{
-    background-color:aquamarine;  
-} */
+  .site-title, .site-title:visited {
+    }
+
+ .site-title, .site-title:hover{
+    text-decoration:hover;
+}
 
 .site-nav {
   transition: all 0.45s ease;
@@ -323,7 +315,6 @@ pre {
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
-      top: 9px;
       right: 15px;
      /* background-color: #fdfdfd; //REMOVED HAMBURGER OUTLINE
       border: 1px solid #e8e8e8;   //which took over ABOUT
