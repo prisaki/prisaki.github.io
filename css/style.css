@@ -135,8 +135,9 @@ a {
   .link2:hover {
     transition: all 0.45s ease-in-out;
     -webkit-transition: all 0.45s ease-in-out; /* safari */
-      
+    
     text-decoration: underline;
+
 }
 
 .nav:link{
