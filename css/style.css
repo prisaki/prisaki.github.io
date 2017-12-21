@@ -99,7 +99,6 @@ a {
   color: #B9B9B9;
   text-decoration: none;
   font-size:inherit;
-  /* text-align: center; */
   font:inherit;
   padding: 7x 7x;
   cursor: pointer;
@@ -120,6 +119,24 @@ a {
     padding:7px 7px;
       
     border-radius: 12px;
+}
+
+.link2{
+  color: #0000EE;
+  text-decoration: none;
+  font-size:inherit;
+  font:inherit;
+}
+  .link2:visited {
+    text-decoration: none;
+    color: #551A8B;
+}
+ 
+  .link2:hover {
+    transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out; /* safari */
+      
+    text-decoration: underline;
 }
 
 .nav:link{
