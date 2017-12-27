@@ -94,6 +94,12 @@ a {
   a:hover {   
     text-decoration:none;
 }
+
+.center{
+    display: block;
+    margin: auto;
+    width: 90%; 
+}
   
 .link{
   color: #B9B9B9;
