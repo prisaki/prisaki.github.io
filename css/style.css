@@ -11,7 +11,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 15px/1.5; /* "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+    
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -62,6 +64,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 400; }
 
 /**
@@ -121,7 +124,7 @@ a {
     -webkit-transition: all 0.45s ease-in-out; /* safari */
       
     color: #FBFBFB;
-    background-color:#67E3AA; /* 00F27E */
+    background-color:#624D75; /* 00F27E */
     padding:7px 7px;
       
     border-radius: 12px;
@@ -185,16 +188,15 @@ B9B9B9
   -webkit-transition: all 0.25s ease;
   
   background:#624D75;
-  color: #67E3AA;
+  color: #fdfdfd;
     
   position:absolute;
   object-position:center;
 
   border:none;
   outline:none;
-  border-radius:19px;
+  border-radius:8px;
   padding: 7px 28px;
-  margin-left:30px;
     
   font-size:inherit;
   text-align: center;
@@ -204,16 +206,15 @@ B9B9B9
   .boo:hover {
     
     color: #624D75;
-    background: #67E3AA;
+    background: #fdfdfd;
     
     position:absolute;
     object-position:center;
 
-    border:none;
+    border: 5px solid #624D75;
     outline:none;
-    border-radius:19px;
-    padding: 7px 28px;
-    margin-left:30px;
+    border-radius:8px;
+    padding: 2px 23px;
     
     font-size:inherit;
     text-align: center;
