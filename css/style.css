@@ -13,6 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 15px/1.5; /* "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.5px;
     
   color: #111;
   background-color: #fdfdfd;
@@ -155,7 +156,7 @@ a {
   
   color: #424242;
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 150;
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -554,20 +555,22 @@ test to move for 2 column
 
 .post-title {
   text-align:center;
-  font-size: 35px;
-  letter-spacing: -1px;
-  line-height: 1; }
+  font-size: 32px;
+  letter-spacing: 0px;
+  line-height: 1; 
+  color: #4e3d5d}
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 32px; } }
 
 .post-title-alt {
    padding-top: 30px;
    padding-bottom: 10px;
    border-top: 1px solid #e8e8e8; 
 
-  font-size: 35px;
-  letter-spacing: -1px;
+  color:#4e3d5d;
+  font-size: 32px;
+  letter-spacing: 0px;
   line-height: 1; }
     
     @media screen and (max-width:700px){
@@ -592,24 +595,18 @@ test to move for 2 column
 }
 
   .post-content h2 {
-    font-size: 32px; }
-    @media screen and (max-width: 800px) {
-      .post-content h2 {
-        font-size: 28px; } }
+    font-size: 28px;
+    color: #624D75;}
+
   .post-content h3 {
     font-size: 26px;
-    color: #B9B9B9;}
-    @media screen and (max-width: 800px) {
-      .post-content h3{
-        font-size: 22px;
-        color: #B9B9B9;} }
+    color: #624D75;
+    font-style:italic;}
+
   .post-content h4 {
     font-size: 20px;
     color:#B9B9B9;}
-    @media screen and (max-width: 800px) {
-      .post-content h4 {
-        color: #B9B9B9;
-        font-size: 18px; } }
+ 
 
 
 /**
