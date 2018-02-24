@@ -11,9 +11,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 15px/1.5; /* "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font: 400 18px/1.5; /* "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.5px;
+  line-height: 24px;
     
   color: #111;
   background-color: #fdfdfd;
@@ -156,7 +157,6 @@ a {
   
   color: #424242;
   font-size: 26px;
-  font-weight: 150;
   line-height: 54px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -184,26 +184,23 @@ B9B9B9
 1756a9
 67E3AA */
 
-.boo{
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-  
-  background:#624D75;
-  color: #fdfdfd;
-    
+}
+
+  .boo:hover:after {
+
   position:absolute;
   object-position:center;
 
   border:none;
   outline:none;
   border-radius:8px;
-  padding: 7px 28px;
+  padding: 2px 23px;
     
   font-size:inherit;
   text-align: center;
   font:inherit;
 }
- 
+
   .boo:hover {
     
     color: #624D75;
@@ -220,6 +217,27 @@ B9B9B9
     font-size:inherit;
     text-align: center;
     font:inherit;
+}
+
+.boo{
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+    -moz-transition:all 0.25s ease;
+  
+  background:#624D75;
+  color: #fdfdfd;
+    
+  position:absolute;
+  object-position:center;
+
+  border: 5px solid #624D75;
+  outline:none;
+  border-radius:8px;
+  padding: 2px 23px;
+    
+  font-size:inherit;
+  text-align: center;
+  font:inherit;
 }
 
 /* Responsive Iframe CSS for YouTube */
