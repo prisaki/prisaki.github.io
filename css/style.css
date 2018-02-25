@@ -15,7 +15,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: .015em;
   line-height: 1.35em;
-  font-size: 1.35em;
+  font-size: 1.42em;
     
   color: #111;
   background-color: #fdfdfd;
@@ -529,16 +529,16 @@ pre {
 }
 
 h2 {
-  font-size: 2.35em;
+  font-size: 2.2em;
   color: #624D75;}
 
 h3 {
-  font-size: 2.2em;
+  font-size: 2em;
   color: #624D75;
   font-style:italic;}
 
 h4 {
-  font-size: 2.05em;
+  font-size: 1.88em;
   color:#B9B9B9;}
  
 
