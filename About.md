@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About me
-permalink: /about/
+permalink: /About/
 ---
 
 This site was created on [Jekyll](https://github.com/jekyll/jekyll) and the source code for this site can be found [here](https://github.com/prisaki/portfolio).
@@ -20,7 +20,9 @@ The focus on sparse, concise content was to help hiring personal. On average 30 
 
 ## Interesting Design Articles
 
-### [Welcome to Hillstone, America's favorite restaurant](https://www.bonappetit.com/restaurants-travel/article/hillstone)
+### Welcome to Hillstone, America's favorite restaurant
+
+[link](https://www.bonappetit.com/restaurants-travel/article/hillstone)
 
 This restaurant is run phenomenally, with great food at a deserving price. Unlike it’s competitors, the food may be one of the least interesting things about it.
 
@@ -28,7 +30,9 @@ Enhancing websites and applications gets a primary focus in talk about UX but it
 
 Houston’s doesn’t. It does it’s best to deceive you that it’s a chain and it removes much of the effort we place as customers. There is no loud background music deafening conversations, intimate lighting where you can’t read a menu, even the awkward fumbling of closing a tab at the bar when a table opens up… It gives a place to eat and enjoy it.
 
-### [The long incredibly tortuous and fascinating process of creating a chinese font](https://qz.com/522079/the-long-incredibly-tortuous-and-fascinating-process-of-creating-a-chinese-font/)  
+### The long incredibly tortuous and fascinating process of creating a chinese font
+
+[link](https://qz.com/522079/the-long-incredibly-tortuous-and-fascinating-process-of-creating-a-chinese-font/)  
 
 I have an odd fascination with fonts but more-so with how it affects readers. In creating a style aesthetics are the primary focus to create an emotion to demonstrate a brand in many cases.
 
