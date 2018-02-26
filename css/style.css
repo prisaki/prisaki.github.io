@@ -179,8 +179,28 @@ B9B9B9
 
 }
 
-  .boo:hover:after {
+.boo{
+  transition: all 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition:all 0.25s ease;
+  
+  background:#624D75;
+  color: #fdfdfd;
+    
+  position:absolute;
+  object-position:center;
 
+  border: 5px solid #624D75;
+  outline: none;
+  border-radius:4px;
+  padding: 4px 25px;
+    
+  font-size:inherit;
+  text-align: center;
+  font:inherit;
+}
+
+  .boo:hover:after {
   position:absolute;
   object-position:center;
 
@@ -210,27 +230,6 @@ B9B9B9
     font-size:inherit;
     text-align: center;
     font:inherit;
-}
-
-.boo{
-  transition: all 0.25s ease;
-  -webkit-transition: all 0.25s ease;
-    -moz-transition:all 0.25s ease;
-  
-  background:#624D75;
-  color: #fdfdfd;
-    
-  position:absolute;
-  object-position:center;
-
-  border: 5px solid #624D75;
-  outline: none;
-  border-radius:4px;
-  padding: 4px 25px;
-    
-  font-size:inherit;
-  text-align: center;
-  font:inherit;
 }
 
 /* Responsive Iframe CSS for YouTube */
