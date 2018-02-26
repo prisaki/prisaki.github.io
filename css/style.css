@@ -140,7 +140,6 @@ a {
     -webkit-transition: all 0.45s ease-in-out; /* safari */
     
     text-decoration: underline;
-
 }
 
 .nav:link{
@@ -155,27 +154,17 @@ a {
   margin-bottom: 0;
   float: left; 
 }
+
 .nav:hover {
   text-decoration: underline; 
   border-radius: none;
   padding:none;
   background-color:none;
 }
+
 .nav:visited {
   text-decoration:none;
 }
-  
-/* color list
-
-2a7ae2
-1756a9
-FBFBFB
-67E3AA
-
-a2
-B9B9B9
-1756a9
-67E3AA */
 
 .boo{
   transition: all 0.25s ease;
