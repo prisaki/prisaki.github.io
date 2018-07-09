@@ -483,7 +483,7 @@ pre {
     .post-title {
       font-size: 2.35em; } }
 
-.post-title-alt {
+h1.post-title-alt {
    padding-top: 30px;
    padding-bottom: 10px;
    border-top: 1px solid #e8e8e8; 
@@ -492,13 +492,16 @@ pre {
   font-size: 2.35em;
   letter-spacing: 0px;
   line-height: 1; }
-    
-    @media screen and (max-width:700px){
-    .post-title-alt {
-    font-size: 2.35em;
-    border-top: 1px solid: #e8e8e8;
-    } 
-   }
+
+h2.post-title-alt {
+   padding-top: 30px;
+   padding-bottom: 10px;
+   border-top: 1px solid #e8e8e8; 
+
+  color:#4e3d5d;
+  font-size: 2.35em;
+  letter-spacing: 0px;
+  line-height: 1; }
 
 .post-content {
   margin-bottom: 30px;
@@ -666,4 +669,4 @@ h4 {
   .highlight .vi {
     color: #008080; }
   .highlight .il {
-    color: #099; }
+    color: #099; } 
