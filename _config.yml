@@ -24,14 +24,13 @@ url: "stephenpryor.me" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: _pryor 
 github_username: Prisaki
 
-# Organisation
-collections:
-  my_collection: Active
-    output: true
-    permalink: /Active/:path/
-  my_collection: AdditionalProjects
-    output: true
-    permalink: /AdditionalProjects/:path/
+# pages help
+include:
+  - _pages
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename/
 
 # Build settings
 markdown: kramdown
