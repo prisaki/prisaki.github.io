@@ -29,8 +29,6 @@ collections:
   my_collection: Active
     output: true
     permalink: /Active/:path/
-    
-collections:
   my_collection: AdditionalProjects
     output: true
     permalink: /AdditionalProjects/:path/
