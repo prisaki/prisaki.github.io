@@ -24,6 +24,17 @@ url: "stephenpryor.me" # the base hostname & protocol for your site, e.g. http:/
 twitter_username: _pryor 
 github_username: Prisaki
 
+# Organisation
+collections:
+  my_collection: Active
+    output: true
+    permalink: /Active/:path/
+    
+collections:
+  my_collection: AdditionalProjects
+    output: true
+    permalink: /AdditionalProjects/:path/
+
 # Build settings
 markdown: kramdown
 theme: minima
