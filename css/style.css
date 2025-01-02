@@ -379,22 +379,14 @@ pre {
       padding-left: 1em; } } 
     
 /**    
-  
-  OLD WITH THE BASIC PIXELS
+  TEXT width TODO
+current width is 570 x 1802 roughly
+what to update.. max CONTENT width.. don't think it matters here
+use inverse golden ratio for max width.. 61.8%..
 
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 0em;
-  padding-left: 0em; }
-  @media screen and (max-width: 800px) {
-    .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
-    **/
+consider.. 960, 1152 and 1344 as divisible by 12 and 16
+
+**/
 
 /**
  * Clearfix
